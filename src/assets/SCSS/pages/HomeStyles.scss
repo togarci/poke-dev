@@ -1,0 +1,23 @@
+#home-page {
+    font-family: $font-primary;
+    padding-top: 100px;
+
+    section {
+        margin-left: 7rem;
+        color: $color-auttar-cinza;
+
+        h2 {
+            font-weight: 800;
+            font-size: 3.375rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+    
+    img {
+        height: 28rem;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+    }
+}
