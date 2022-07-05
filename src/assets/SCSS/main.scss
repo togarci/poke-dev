@@ -1,10 +1,3 @@
-
-
-$color-primary-white: #FFF;
-$color-primary-black: #171414;
-$color-second-black: #212121;
-$color-yellow: #FFDA55;
-$color-cian: #48D0B0;
-$color-auttar-cinza: #282828;
-
+@import './root.scss';
 @import './components/HeaderStyle.scss';
+@import './pages/HomeStyles.scss';
