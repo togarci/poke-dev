@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import BannerComplete from '../assets/img/BannerComplete.png';
 
 export default function HomePage() {
@@ -8,7 +9,9 @@ export default function HomePage() {
                     <h2>Qual pokemon você <span>escolheria</span>?</h2>
                     
                     <p>Você pode saber o tipo de Pokémon, seus pontos fortes, fracos e habilidades.</p>
-                    <button className="primary-btn">Veja os pokemons</button>
+                    <Link to="/pokemons">
+                        <button className="primary-btn">Veja os pokemons</button>
+                    </Link>
                 </section>
                 <div className="">
                     <img src={BannerComplete} />
