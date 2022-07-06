@@ -1,0 +1,36 @@
+.card-pokemon {
+    cursor: pointer;
+    font-family: $font-primary;
+    background: linear-gradient(8.46deg, #46A487 -0.58%, #46D7AB 108.38%);
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 10px 5px;
+
+    span {
+        font-weight: 500;
+        font-size: 15px;
+        color: #3E8570;
+    }
+
+    b {
+        color: $color-primary-white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .attribute {
+        text-align: center;
+        font-weight: 500;
+        font-size: 9px;
+        color: $color-primary-white;
+        padding: 3px 10px;
+        background-color: rgba($color: $color-primary-white, $alpha: 0.4);
+        border-radius: 38px;
+        margin: 5px 0px;
+    }
+
+    img {
+        width: 79.43px;
+        height: 70.36px;
+    }
+}
